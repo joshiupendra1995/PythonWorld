@@ -1,0 +1,7 @@
+Flask-Mail
+pandas~=1.1.4
+psycopg2~=2.8.6
+PyPDF2~=1.26.0
+pyttsx3~=2.90
+pygame~=2.0.0
+pytube~=10.0.0

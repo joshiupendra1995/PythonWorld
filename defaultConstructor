@@ -1,0 +1,10 @@
+class Employee:
+    name = "upendra"
+
+    def read_name(self):
+        print(self.name)
+
+
+obj = Employee()
+
+obj.read_name()
