@@ -8,7 +8,7 @@ conn.autocommit = True
 # Creating a cursor object using the cursor() method
 cursor = conn.cursor()
 
-# cursor.execute('''insert into vendors values(3,'deepa')''')
+# cursor.execute('''insert into vendors values(1,'upendra')''')
 
 cursor.execute('''select * from vendors where vendor_id=1''')
 
