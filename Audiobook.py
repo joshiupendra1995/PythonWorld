@@ -5,6 +5,9 @@ import argparse
 
 class Audiobook:
     def __init__(self, file_name, file_mode):
+        if len(file_name) == 0:
+            print("########## Invalid FileName #######")
+            exit(-1)
         self.file_name = file_name
         self.file_mode = file_mode
 
